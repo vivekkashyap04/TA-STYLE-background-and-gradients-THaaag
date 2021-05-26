@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* custom css */
+body {
+  line-height: 1.5;
+  font-size: 16px;
+  background-color: #20222f;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 10px 32px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.sub-header {
+  color: #566083;
+  font-size: 12px;
+  font-weight: 600;
+}
+.mode {
+  margin-right: 12px;
+  color: #566083;
+}
+.dot {
+  width: 50px;
+  height: 20px;
+  background: #53c6a0;
+  border-radius: 20px;
+}
+.small-dot {
+  background: #252a45;
+  width: 9px;
+  padding: 5px;
+  height: 8px;
+  border-radius: 50%;
+  margin-left: 2px;
+}
+.col-1 {
+  flex: 0 1 24%;
+  background-color: #252b43;
+  text-align: center;
+  align-self: center;
+  padding: 20px 0;
+}
+
+.top-color1 {
+  border-top: 3px solid blue;
+}
+.top-color2 {
+  border-top: 3px solid #eb9b80;
+}
+.top-color3 {
+  border-top: 3px solid crimson;
+}
+h6 {
+  color: #797f9e;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  padding-top: 0px;
+}
+.insta {
+  padding-right: 8px;
+}
+
+.i {
+  color: blue;
+  padding: 0 8px;
+}
+.y-icon {
+  color: crimson;
+  padding-right: 8px;
+}
+.number {
+  font-size: 45px;
+  font-weight: 600;
+}
+.para {
+  color: green;
+}
+.para-red {
+  color: crimson;
+}
+p i {
+  vertical-align: middle;
+}
+/*2nd section */
+.header2 {
+  font-size: 20px;
+}
+.col-2 {
+  flex: 0 1 20%;
+  background-color: #252b43;
+  padding: 20px 20px;
+  margin: 20px 0;
+}
+.margin {
+  padding-top: 10px;
+}
+.text-number {
+  font-size: 30px;
+  font-weight: 600;
+}
